@@ -24,11 +24,11 @@ function App() {
         <button
           type="button"
           className="counter"
-          onClick={confetti({
-          particleCount: 150,
-          spread: 80,
-          origin: { y: 0.6 }
-        })}
+          onClick={() => confetti({
+            particleCount: 150,
+            spread: 80,
+            origin: { y: 0.6 }
+          })} // 2. Usa una función flecha para que se ejecute solo al hacer clic
         >
           Count is {count}
         </button>
