@@ -24,7 +24,11 @@ function App() {
         <button
           type="button"
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
+          onClick={confetti({
+          particleCount: 150,
+          spread: 80,
+          origin: { y: 0.6 }
+        })}
         >
           Count is {count}
         </button>
