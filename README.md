@@ -16,3 +16,6 @@ Aunque la carpeta node_modules/ esté excluida en el archivo .gitignore, los arc
    - package.json: Se actualiza automáticamente para eliminar la librería de la sección de dependencias (dependencies o devDependencies).
 
    - package-lock.json (o el equivalente de tu gestor de paquetes): Se actualiza para reflejar que dicho paquete ya no forma parte del árbol de dependencias.
+
+## El enlace de la pagina web:
+https://pepesitaa.github.io/Actividad-npm-web/
